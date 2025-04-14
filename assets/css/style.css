@@ -949,8 +949,6 @@ main {
   background-color:#2b2b2c;
   color: white;
   border: none;
- 
-
   cursor: pointer;
   text-align: center;
   color: var(--white-1);
@@ -960,7 +958,6 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
-  
   margin-top: 7px;
 }
 
