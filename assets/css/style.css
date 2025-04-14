@@ -944,6 +944,29 @@ main {
   border-radius: 90%;
 }
 
+.resume-button {
+  padding: 10px 20px;
+  background-color:#2b2b2c;
+  color: white;
+  border: none;
+ 
+
+  cursor: pointer;
+  text-align: center;
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  
+  margin-top: 7px;
+}
+
+
+
+
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
@@ -1891,11 +1914,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contacts-list { grid-template-columns: 1fr; }
 
-  .contact-info :is(.contact-link) {
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
-  }
+ 
 
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 14px;
